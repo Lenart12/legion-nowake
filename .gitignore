@@ -1,0 +1,17 @@
+# kbuild artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+.*.cmd
+*.o.d
+*.symvers
+*.order
+Module.symvers
+modules.order
+.module-common.o
+.tmp_versions/
+.cache.mk
+*.dwo
