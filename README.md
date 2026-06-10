@@ -54,7 +54,7 @@ It is deliberately surgical:
 ## Install (DKMS — survives kernel updates)
 
 ```bash
-git clone <your-repo-url> legion-nowake
+git clone https://github.com/Lenart12/legion-nowake
 cd legion-nowake
 sudo ./install.sh
 ```
