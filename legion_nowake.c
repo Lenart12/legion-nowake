@@ -48,6 +48,13 @@ static const struct dmi_system_id legion_nowake_dmi[] = {
 			DMI_MATCH(DMI_PRODUCT_VERSION, "Legion Pro 5 16ARX8"),
 		},
 	},
+	{
+		.ident = "Lenovo Legion R900P ADR10",
+		.matches = {
+			DMI_MATCH(DMI_SYS_VENDOR, "LENOVO"),
+			DMI_MATCH(DMI_PRODUCT_VERSION, "Legion R9000P ADR10"),
+		},
+	},
 	{ }
 };
 MODULE_DEVICE_TABLE(dmi, legion_nowake_dmi);
